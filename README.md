@@ -17,7 +17,7 @@
 
 # 3rd Party
 - Gorilla Websocket
-- Confluent Kafka Go
+- [Confluent Kafka Go](https://github.com/confluentinc/confluent-kafka-go)
 - sirupsen's logrus
 
 
