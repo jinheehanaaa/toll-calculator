@@ -3,12 +3,14 @@
 # Kafka
 - docker run --name kafka -p 9092:9092 -e ALLOW_PLAINTEXT_LISTENER=yes -e KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true bitnami/kafka:latest
 
-
-# On Board Unit (OBU)
+# Folder Structure
+## On Board Unit (OBU)
 - sends GPS coordinates
 
-# data_receiver
+## data_receiver
 - receives GPS coordinates
+
+## distance_calculator
 
 # types
 - Shared data
@@ -16,3 +18,12 @@
 # 3rd Party
 - Gorilla Websocket
 - Confluent Kafka Go
+- sirupsen's logrus
+
+
+
+
+
+# Resources
+- [This](https://github.com/jinheehanaaa/toll-calculator)
+- [Official Github](https://github.com/fulltimegodev/toll-calculator)
